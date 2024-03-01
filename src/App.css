@@ -1,7 +1,12 @@
-#root {
+#container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+*::selection {
+  color: #333;
+  background-color: #ccc;
 }
 
 .logo {
