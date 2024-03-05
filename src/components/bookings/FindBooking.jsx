@@ -122,7 +122,7 @@ const FindBooking = () => {
             </p>
             <p>
               Check-out Date:{" "}
-              {moment(bookingInfo.checkInDate)
+              {moment(bookingInfo.checkOutDate)
                 .subtract(1, "month")
                 .format("MMM Do, YYYY")}
             </p>
