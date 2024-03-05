@@ -21,7 +21,7 @@ const FindBooking = () => {
     guestEmail: "",
     numOfAdults: "",
     numOfChildren: "",
-    totalNumOfGuest: "",
+    totalNumOfGuests: "",
   });
 
   const emptyBookingInfo = {
@@ -35,7 +35,7 @@ const FindBooking = () => {
     guestEmail: "",
     numOfAdults: "",
     numOfChildren: "",
-    totalNumOfGuest: "",
+    totalNumOfGuests: "",
   };
   const [isDeleted, setIsDeleted] = useState(false);
 
