@@ -21,7 +21,7 @@ const FindBooking = () => {
     guestEmail: "",
     numOfAdults: "",
     numOfChildren: "",
-    totalNumOfGuests: "",
+    totalNumOfGuest: "",
   });
 
   const emptyBookingInfo = {
@@ -35,7 +35,7 @@ const FindBooking = () => {
     guestEmail: "",
     numOfAdults: "",
     numOfChildren: "",
-    totalNumOfGuests: "",
+    totalNumOfGuest: "",
   };
   const [isDeleted, setIsDeleted] = useState(false);
 
@@ -130,7 +130,7 @@ const FindBooking = () => {
             <p>Email Address: {bookingInfo.guestEmail}</p>
             <p>Adults: {bookingInfo.numOfAdults}</p>
             <p>Children: {bookingInfo.numOfChildren}</p>
-            <p>Total Guest: {bookingInfo.totalNumOfGuests}</p>
+            <p>Total Guest: {bookingInfo.totalNumOfGuest}</p>
 
             {!isDeleted && (
               <button
